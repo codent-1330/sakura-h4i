@@ -13,13 +13,23 @@ It is an online forum that enables people to put out tweet-like (from twitter) p
 Tech Stacks:
 
  -> MONGODB 
+ 
  -> PYTHON 
+ 
  -> FLASK
+ 
  -> HTML
+ 
  -> CSS
+ 
  -> BOOTSTRAP
+ 
  -> JQUERY
+ 
  -> JINJA2 TEMPLATE
+ 
  -> NLTK – NATURAL LANGUAGE TOOLKIT
+ 
  -> NLP – NATURAL LANGUAGE PROCESSING
+ 
  -> WORDNET
