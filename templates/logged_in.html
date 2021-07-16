@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Sakura</title>
+    <link rel="icon" type="image/x-icon" href="../static/css/favi.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="../static/css/styles_page_two.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="box">
+        <div class="row row-offcanvas row-offcanvas-left">
+
+            <!-- sidebar -->
+            <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+
+                <ul class="nav">
+                    <li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i
+                            class="glyphicon glyphicon-chevron-right"></i></a></li>
+                </ul>
+                <ul class="nav hidden-xs list-unstyled hidden-xs" id="lg-menu sidebar-footer">
+                    <li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Featured</a>
+                    </li>
+                    <li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Stories</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Saved</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Refresh</a></li>
+                </ul>
+                <!-- <ul class="list-unstyled hidden-xs" id="sidebar-footer">
+                       <li>
+                         <a href="http://usebootstrap.com/theme/facebook"><h3>Bootstrap</h3> <i class="glyphicon glyphicon-heart-empty"></i> Bootply</a>
+                       </li>
+                   </ul> -->
+
+                <!-- tiny only nav-->
+                <ul class="nav visible-xs" id="xs-menu">
+                    <li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
+                    <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
+                    <li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
+                    <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
+                </ul>
+
+            </div>
+            <!-- /sidebar -->
+
+            <!-- main right col -->
+            <div class="column col-sm-10 col-xs-11" id="main">
+
+                <!-- top nav -->
+                <div class="navbar navbar-blue navbar-static-top">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="/"><img src="../static/images/sakura.png" alt="Sakura logo" class="logo"></a>
+                    </div>
+                    <nav class="collapse navbar-collapse" role="navigation">
+                        <form class="navbar-form navbar-left" method="POST">
+                            <div class="input-group input-group-sm" style="max-width:360px;">
+                                <input class="form-control" placeholder="Search" name="srch-term" id="srch-term"
+                                       type="text">
+                                <div class="input-group-btn">
+                                    <input class="btn btn-default" name="srch-term" id="search" type="submit"><i
+                                        class="glyphicon glyphicon-search"></i></input>
+                                </div>
+                            </div>
+                        </form>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
+                            </li>
+                            <li>
+                                <a href="#postModal" role="button" data-toggle="modal"><i
+                                        class="glyphicon glyphicon-plus"></i> Post</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="badge">badge</span></a>
+                            </li>
+                            <li>
+                                <div id="google_translate_element">
+                                </div>
+                                <script>
+                                    function googleTranslateElementInit() {
+                                        new google.translate.TranslateElement(
+                                            {pageLanguage: 'en'},
+                                            'google_translate_element'
+                                        );
+                                    }
+                                </script>
+                                <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="glyphicon glyphicon-user"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/logout">Logout</a></li>
+                                    <li><a href="">More</a></li>
+                                    <li><a href="">More</a></li>
+                                    <li><a href="">More</a></li>
+                                    <li><a href="">More</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /top nav -->
+
+                <div class="padding">
+                    <div class="full col-sm-9">
+
+                        <!-- content -->
+                        <div class="row">
+
+                            <!-- main col left -->
+                            <div class="col-sm-5">
+
+                                <div class="panel panel-default">
+                                    <div class="panel-thumbnail"><img src="../static/images/bg_5.jpg"
+                                                                      class="img-responsive"></div>
+                                    <div class="panel-body">
+                                        <p class="lead">Sakura</p>
+                                        <p>45 Followers, 13 Posts</p>
+
+                                        <p>
+                                            <img src="../static/images/uFp_tsTJboUY7kue5XAsGAs28.png" height="28px"
+                                                 width="28px">
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>
+                                        Examples</h4></div>
+                                    <div class="panel-body">
+                                        <div class="list-group">
+                                            <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Modal
+                                                / Dialog</a>
+                                            <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Datetime
+                                                Examples</a>
+                                            <a href="http://usebootstrap.com/theme/facebook" class="list-group-item">Data
+                                                Grids</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="well">
+                                    <form class="form-horizontal" role="form">
+                                        <h4>What's New</h4>
+                                        <div class="form-group" style="padding:14px;">
+                                            <textarea class="form-control" placeholder="Update your status"></textarea>
+                                        </div>
+                                        <button class="btn btn-primary pull-right" type="button">Post</button>
+                                        <ul class="list-inline">
+                                            <li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li>
+                                            <li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li>
+                                            <li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li>
+                                        </ul>
+                                    </form>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>More
+                                        Templates</h4></div>
+                                    <div class="panel-body">
+                                        <img src="../static/images/150x150.gif" class="img-circle pull-right"> <a
+                                            href="#">Free @Bootply</a>
+                                        <div class="clearfix"></div>
+                                        In massa tempor nec feugiat. Lectus sit amet est placerat in egestas erat
+                                        imperdiet. Elit scelerisque mauris pellentesque pulvinar.
+                                        <hr>
+                                        <ul class="list-unstyled">
+                                            <li><a href="http://usebootstrap.com/theme/facebook">Dashboard</a></li>
+                                            <li><a href="http://usebootstrap.com/theme/facebook">Darkside</a></li>
+                                            <li><a href="http://usebootstrap.com/theme/facebook">Greenfield</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h4>What Is Sakura?</h4></div>
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit
+                                        scelerisque. Lorem mollis aliquam ut porttitor leo. A diam sollicitudin tempor
+                                        id eu nisl nunc mi. Nibh tortor id aliquet lectus proin nibh nisl condimentum
+                                        id. Eget felis eget nunc lobortis mattis aliquam faucibus. At imperdiet dui
+                                        accumsan sit amet. Non arcu risus quis varius quam quisque id. Condimentum
+                                        mattis pellentesque id nibh tortor id aliquet. Feugiat sed lectus vestibulum
+                                        mattis ullamcorper.
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <!-- main col right -->
+                            <div class="col-sm-7">
+
+                                <div class="well">
+                                    <form class="form">
+                                        <h4>Sign-up</h4>
+                                        <div class="input-group text-center">
+                                            <input class="form-control input-lg" placeholder="Enter your email address"
+                                                   type="text">
+                                            <span class="input-group-btn"><button class="btn btn-lg btn-primary"
+                                                                                  type="button">OK</button></span>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Morbi
+                                        tristique</h4></div>
+                                    <div class="panel-body">
+                                        <p><img src="../static/images/profile.jpg" class="img-circle pull-right"> <a
+                                                href="#">Lorem ipsum dolor sit amet</a></p>
+                                        <div class="clearfix"></div>
+                                        <hr>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Libero nunc consequat interdum
+                                        varius sit amet mattis. Velit laoreet id donec ultrices tincidunt arcu non.
+                                        Convallis a cras semper auctor neque vitae tempus quam. Enim blandit volutpat
+                                        maecenas volutpat blandit aliquam etiam erat.
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>
+                                        Stackoverflow</h4></div>
+                                    <div class="panel-body">
+                                        <img src="../static/images/150x150.gif" class="img-circle pull-right"> <a
+                                            href="#">Keyword:Javascript</a>
+                                        <div class="clearfix"></div>
+                                        <hr>
+
+                                        <p>Convallis a cras semper auctor neque vitae tempus quam. Enim blandit volutpat
+                                            maecenas volutpat blandit aliquam etiam erat.</p>
+
+                                        <hr>
+                                        <form>
+                                            <div class="input-group">
+                                                <div class="input-group-btn">
+                                                    <button class="btn btn-default">+1</button>
+                                                    <button class="btn btn-default"><i
+                                                            class="glyphicon glyphicon-share"></i></button>
+                                                </div>
+                                                <input class="form-control" placeholder="Add a comment.." type="text">
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Portlet
+                                        Heading</h4></div>
+                                    <div class="panel-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Modals</li>
+                                            <li class="list-group-item">Sliders / Carousel</li>
+                                            <li class="list-group-item">Thumbnails</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-thumbnail"><img src="../static/images/bg_4.jpg"
+                                                                      class="img-responsive"></div>
+                                    <div class="panel-body">
+                                        <p class="lead">Social Good</p>
+                                        <p>1,200 Followers, 83 Posts</p>
+
+                                        <p>
+                                            <img src="../static/images/photo.jpg" height="28px" width="28px">
+                                            <img src="../static/images/photo.png" height="28px" width="28px">
+                                            <img src="../static/images/photo_002.jpg" height="28px" width="28px">
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div><!--/row-->
+
+                        <!-- <div class="row">
+                          <div class=".col-sm-9.full">
+                            <a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
+                          </div>
+                        </div>
+
+                        <div class="row" id="footer">
+                          <div class="col-sm-6">
+
+                          </div>
+                          <div class="col-sm-6">
+                            <p>
+                            <a href="#" class="pull-right">�Copyright 2021</a>
+                            </p>
+                          </div>
+                        </div> -->
+                        <footer class="footer footer-dark">sakura</footer>
+                        <hr>
+
+                        <!-- <h4 class="text-center">
+                        <a href="http://usebootstrap.com/theme/facebook" target="ext">Download this Template @Bootply</a>
+                        </h4> -->
+
+                        <hr>
+
+
+                    </div><!-- /col-9 -->
+                </div><!-- /padding -->
+            </div>
+            <!-- /main -->
+
+        </div>
+    </div>
+</div>
+
+
+<!--post modal-->
+<div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
+                Update Status
+            </div>
+            <div class="modal-body">
+                <form class="form center-block">
+                    <div class="form-group">
+                        <textarea class="form-control input-lg" autofocus=""
+                                  placeholder="What do you want to share?"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div>
+                    <button class="btn btn-primary btn-sm" data-dismiss="modal" aria-hidden="true">Post</button>
+                    <ul class="pull-left list-inline">
+                        <li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li>
+                        <li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li>
+                        <li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../static/js/jquery.js"></script>
+<script type="text/javascript" src="../static/js/bootstrap.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('[data-toggle=offcanvas]').click(function () {
+            $(this).toggleClass('visible-xs text-center');
+            $(this).find('i').toggleClass('glyphicon-chevron-right glyphicon-chevron-left');
+            $('.row-offcanvas').toggleClass('active');
+            $('#lg-menu').toggleClass('hidden-xs').toggleClass('visible-xs');
+            $('#xs-menu').toggleClass('visible-xs').toggleClass('hidden-xs');
+            $('#btnShow').toggle();
+        });
+    });
+</script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+
+<script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
