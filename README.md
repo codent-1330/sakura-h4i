@@ -1,5 +1,5 @@
-# sakura-h4i
 Sakura - Feel Beautiful , Stay proud , Be the Zenith of Success !
+
 Our application focuses on creating a safe professional workspace for women and people belonging to the Lgbtq+ community.
 
 Statistics has stated that the unemployment rate for women engineers is 5 times that for men also most genderqueer people face violence,abuse and disrespect at their workplace and  paid lesser than the other employees and are forced to hide their identity.
