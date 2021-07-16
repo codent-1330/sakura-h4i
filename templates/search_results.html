@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../static/css/favi.png"/>
+    <link rel="icon" type="image/x-icon" href="../static/css/favi.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="../static/css/bootstrap.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -12,104 +13,124 @@
 
     <title>Title</title>
 </head>
+
 <body>
-<div class="wrapper">
-    <div class="box">
-        <div class="row row-offcanvas row-offcanvas-left">
+    <div class="wrapper">
+        <div class="box">
+            <div class="row row-offcanvas row-offcanvas-left">
 
-            <!-- sidebar -->
-            <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+                <!-- sidebar -->
+                <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
 
-                <ul class="nav">
-                    <li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i
-                            class="glyphicon glyphicon-chevron-right"></i></a></li>
-                </ul>
-                <ul class="nav hidden-xs list-unstyled hidden-xs" id="lg-menu sidebar-footer">
-                    <li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Featured</a>
-                    </li>
-                    <li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Stories</a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Saved</a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Refresh</a></li>
-                </ul>
-                <!-- <ul class="list-unstyled hidden-xs" id="sidebar-footer">
+                    <ul class="nav">
+                        <li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i
+                                    class="glyphicon glyphicon-chevron-right"></i></a></li>
+                    </ul>
+                    <ul class="nav hidden-xs list-unstyled hidden-xs" id="lg-menu sidebar-footer">
+                        <li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Featured</a>
+                        </li>
+                        <li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Stories</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Saved</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Refresh</a></li>
+                    </ul>
+                    <!-- <ul class="list-unstyled hidden-xs" id="sidebar-footer">
                        <li>
                          <a href="http://usebootstrap.com/theme/facebook"><h3>Bootstrap</h3> <i class="glyphicon glyphicon-heart-empty"></i> Bootply</a>
                        </li>
                    </ul> -->
 
-                <!-- tiny only nav-->
-                <ul class="nav visible-xs" id="xs-menu">
-                    <li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
-                    <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
-                    <li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
-                    <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
-                </ul>
+                    <!-- tiny only nav-->
+                    <ul class="nav visible-xs" id="xs-menu">
+                        <li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a>
+                        </li>
+                        <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
+                        <li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
+                        <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
+                    </ul>
 
-            </div>
-            <!-- /sidebar -->
-
-            <!-- main right col -->
-            <div class="column col-sm-10 col-xs-11" id="main">
-
-                <!-- top nav -->
-                <div class="navbar navbar-blue navbar-static-top">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle" type="button" data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="http://usebootstrap.com/theme/facebook" class="navbar-brand logo">s</a>
-                    </div>
-                    <nav class="collapse navbar-collapse" role="navigation">
-                        <form class="navbar-form navbar-left" method="POST">
-                            <div class="input-group input-group-sm" style="max-width:360px;">
-                                <input class="form-control" placeholder="Search" name="srch-term" id="srch-term"
-                                       type="text">
-                                <div class="input-group-btn">
-                                    <input class="btn btn-default" name="srch-term" id="search" type="submit"><i
-                                        class="glyphicon glyphicon-search"></i></input>
-                                </div>
-                            </div>
-                        </form>
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
-                            </li>
-                            <li>
-                                <a href="#postModal" role="button" data-toggle="modal"><i
-                                        class="glyphicon glyphicon-plus"></i> Post</a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="badge">badge</span></a>
-                            </li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                                        class="glyphicon glyphicon-user"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/logout">Logout</a></li>
-                                    <li><a href="">More</a></li>
-                                    <li><a href="">More</a></li>
-                                    <li><a href="">More</a></li>
-                                    <li><a href="">More</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
-                <br><br><br>
-                {% for dict_item in final_search_results %}
+                <!-- /sidebar -->
+
+                <!-- main right col -->
+                <div class="column col-sm-10 col-xs-11" id="main">
+
+                    <!-- top nav -->
+                    <div class="navbar navbar-blue navbar-static-top">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="http://usebootstrap.com/theme/facebook" class="navbar-brand logo">s</a>
+                        </div>
+                        <nav class="collapse navbar-collapse" role="navigation">
+                            <form class="navbar-form navbar-left" method="POST">
+                                <div class="input-group input-group-sm" style="max-width:360px;">
+                                    <input class="form-control" placeholder="Search" name="srch-term" id="srch-term"
+                                        type="text">
+                                    <div class="input-group-btn">
+                                        <input class="btn btn-default" name="srch-term" id="search" type="submit"><i
+                                            class="glyphicon glyphicon-search"></i></input>
+                                    </div>
+                                </div>
+                            </form>
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
+                                </li>
+                                <li>
+                                    <a href="#postModal" role="button" data-toggle="modal"><i
+                                            class="glyphicon glyphicon-plus"></i> Post</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="badge">badge</span></a>
+                                </li>
+                                <li>
+                                    <div id="google_translate_element">
+                                    </div>
+                                    <script>
+                                        function googleTranslateElementInit() {
+                                            new google.translate.TranslateElement(
+                                                { pageLanguage: 'en' },
+                                                'google_translate_element'
+                                            );
+                                        }
+                                    </script>
+                                    <script
+                                        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                            class="glyphicon glyphicon-user"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/logout">Logout</a></li>
+                                        <li><a href="">More</a></li>
+                                        <li><a href="">More</a></li>
+                                        <li><a href="">More</a></li>
+                                        <li><a href="">More</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <br><br><br>
+                    {% for dict_item in final_search_results %}
                     <div class="panel panel-default">
 
-                        <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Sakura</h4></div>
+                        <div class="panel-heading"><a href="#" class="pull-right">View all</a>
+                            <h4>Sakura</h4>
+                        </div>
                         <div class="panel-body">
                             <img src="../static/images/150x150.gif" class="img-circle pull-right"> <a href="#">Visit
-                            Profile</a>
-                            <div class="clearfix"><h2>Username: {{ dict_item['username'] }}</h2></div>
+                                Profile</a>
+                            <div class="clearfix">
+                                <h2>Username: {{ dict_item['username'] }}</h2>
+                            </div>
                             <hr>
                             <h2>Tweet: {{ dict_item['tweet'] }}</h2>
                             <hr>
@@ -127,8 +148,9 @@
                     </div>
                     <br><br>
 
-                {% endfor %}
+                    {% endfor %}
 
 
 </body>
+
 </html>
